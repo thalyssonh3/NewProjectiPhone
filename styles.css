@@ -7,33 +7,229 @@
 
 body {
     scroll-padding: none;
-}
-
-.icon-apple {
-    height: 20px;
+   
 }
 
 header {
     display: flex;
-    height: 50px;
+    height: 125px;
     align-items: center;
-    justify-content: center;
     border-bottom: 1px solid #d3d3d3;
+    background-color: #00000007;
 }
 
-ul {
+.box-header {
+    margin-left: 470px;
     display: flex;
-    gap: 100px;
-    list-style: none;
+}
+
+.apple-grey-header {
+    width: 100px;
+    cursor: pointer;
+}
+
+.apple-grey-header:hover {
+    opacity: 0.8;
+    width: 105px;
+    transition: all 0.6s ease;
+}
+
+.icon-apple-header {
+    position: absolute;
     margin-left: 100px;
 }
 
-li {
-    font-size: 12px;
-    font-weight: 400;
-    color: #373737;
+.images-header {
+    position: relative;
+    margin-top: 6px;
+    width: 100px;
     cursor: pointer;
+    margin-left: 35px;
+    
 }
+
+.one-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+    
+}
+
+.two-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.three-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.four-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.five-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.six-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.seven-hover:hover {
+    transition: all 0.6s ease-out;
+    transform: translateY(-10px);
+}
+
+.div-support {
+    display: flex;
+    margin-left: 42px;
+    border-bottom: 1x solid #000000;
+}
+
+.image-support {
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.image-support:hover {
+    opacity: 0.9;
+}
+
+.legends-mac {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 76px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-ipad {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 67px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-iphone {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 60px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-watch {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 63px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-airpods {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 58px;
+    border-right: 1px solid #c1c1c1;
+}
+
+
+.legends-accessories {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 45px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-appletv {
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-left: 41px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.legends-support {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 18px;
+    color: #000000ce;
+}
+
+.especialista-support {
+    width: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #08f;
+}
+
+.especialista-support:hover {
+    text-decoration: underline;
+}
+
+.especialista-sup {
+    margin-left: 92px;
+    margin-bottom: 10px;
+}
+
+
+.legends-mac:hover {
+    text-decoration: underline;
+}
+
+.legends-accessories:hover {
+    text-decoration: underline;
+}
+
+.legends-watch:hover {
+    text-decoration: underline;
+}
+
+.legends-airpods:hover {
+    text-decoration: underline;
+}
+
+.legends-appletv:hover {
+    text-decoration: underline;
+}
+
+.legends-ipad:hover {
+    text-decoration: underline;
+}
+
+.legends-iphone:hover {
+    text-decoration: underline;
+}
+
 .box-blue {
     display: flex;
     padding: 35px;
@@ -51,7 +247,7 @@ li {
     margin-bottom: 20px;
 }
 
-p {
+.text-principal {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -74,10 +270,22 @@ p {
     border: none;
 }
 
+.button-buy:active {
+    background-color: #5aaedf;
+}
+
+.button-buy:hover {
+    opacity: 0.8;
+    transition: all 0.6s ease;
+    transform: translateY(3px);
+    
+}
+
 .color-paragraph-buttons {
     margin-top: 40px;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 22px;
     color: #3a3a3a;
 }
 
@@ -87,6 +295,10 @@ p {
     border-radius: 50px;
     border: none;
     cursor: pointer;
+}
+
+.all-colors:hover {
+    transform: translateY(-10px);
 }
 
 .circle-blue {
@@ -106,7 +318,7 @@ p {
 }
 
 .circle-red {
-    background-color: #b50012;
+    background-color: #c70c0c;
 }
 
 .circle-purple {
@@ -123,9 +335,18 @@ p {
 .circle-right {
     width: 100%;
     height: 100%;
-    background-color: #b50012;
+    background-color: #81a5c4;
     position: absolute;
     top: 0;
     left: 0;
     clip-path: circle(600px at right 1000px);
+}
+
+section {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+
 }

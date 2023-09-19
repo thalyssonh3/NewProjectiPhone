@@ -6,32 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/favicon-head.png" type="image/x-icon" />
     <script src="./scripts.js"></script>
-    <title>New Project iPhone</title>
+    <title>Apple New Store</title>
 </head>
 
 <body>
     <header>
-        <img class="icon-apple" src="./assets/logo-image-ico.png" alt="image-apple">
-        <ul>
-            <li>Mac</li>
-            <li>iPad</li>
-            <li>iPhone</li>
-            <li>Watch</li>
-            <li>AirPode</li>
-            <li>Acessórios</li>
-            <li>Suporte</li>
-        </ul>
+        <figure class="icon-apple-header">
+            <img class="apple-grey-header" src="./assets/Apple-Simbolo.png">
+        </figure>
+
+
+
+        <div class="box-header">
+
+            <figure>
+                <img class="images-header one-hover" src="./assets/Mac-PNG-Photos.png" alt="img-mac-header">
+                <figcaption class="legends-mac">Mac</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header two-hover" src="./assets/image-ipad.png" alt="img-ipad-header">
+                <figcaption class="legends-ipad">iPad</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header three-hover" src="./assets/image-iphone-header.png" alt="img-iphone-header">
+                <figcaption class="legends-iphone">iPhone</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header four-hover" src="./assets/image-watch.png" alt="img-watch-header">
+                <figcaption class="legends-watch">Watch</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header five-hover" src="./assets/image-airpods.png" alt="img-airpods-header">
+                <figcaption class="legends-airpods">AirPods</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header six-hover" src="./assets/image-accessories.png" alt="img-accessories-header">
+                <figcaption class="legends-accessories">Acessórios</figcaption>
+            </figure>
+
+            <figure>
+                <img class="images-header seven-hover" src="./assets/appletv.png" alt="img-apple-tv-header">
+                <figcaption class="legends-appletv">Apple TV 4K</figcaption>
+            </figure>
+
+
+        </div>
+
     </header>
 
     <div class="box-blue">
+
         <section>
             <h1 class="title-iphone">iPhone 14</h1>
 
             <h2 class="title-second">Tão Poderoso. Tão ao seu alcance.</h2>
 
-            <p>
-                Em dois tamanhos perfeitos. Agora com um toque de amarelo.
+            <p class="text-principal">
+                Em dois tamanhos perfeitos. Agora com um toque de cores ao seu gosto.
 
             </p>
 
@@ -40,17 +78,35 @@
 
             <div>
                 <p class="color-paragraph-buttons">Escolha sua cor:</p>
-                <button onclick="trocaCor('#81a5c4')" class="circle-blue all-colors"></button>
-                <button onclick="trocaCor('#f7da47')" class="circle-yellow all-colors"></button>
-                <button onclick="trocaCor('#c1c1c1')" class="circle-white all-colors"></button>
-                <button onclick="trocaCor('#272d33')" class="circle-black all-colors"></button>
-                <button onclick="trocaCor('#b50012')" class="circle-red all-colors"></button>
-                <button onclick="trocaCor('#ede7f1')" class="circle-purple all-colors"></button>
+                <button onclick="trocaCor('#81a5c4'); trocaImage('./assets/iphone-azul.png')"
+                    class="circle-blue all-colors"></button>
+                <button onclick="trocaCor('#f7da47'); trocaImage('./assets/iphone-amarelo.png')"
+                    class="circle-yellow all-colors"></button>
+                <button onclick="trocaCor('#c1c1c1'); trocaImage('./assets/iphone-branco.png')"
+                    class="circle-white all-colors"></button>
+                <button onclick="trocaCor('#272d33'); trocaImage('./assets/iphone-preto.png')"
+                    class="circle-black all-colors"></button>
+                <button onclick="trocaCor('#c70c0c'); trocaImage('./assets/iphone-vermelho.png')"
+                    class="circle-red all-colors"></button>
+                <button onclick="trocaCor('#ede7f1'); trocaImage('./assets/iphone-roxo.png')"
+                    class="circle-purple all-colors"></button>
             </div>
+            <br>
+            <br>
+
         </section>
 
         <div class="circle-right"></div>
-        <img class="image-iphone" src="./assets/iphone-azul.png" alt="logo-image-celphone-blue">
+        <img class="image-iphone" src="./assets/iphone-azul.png" alt="logo-image-celphone">
+    </div>
+
+    <div class="div-support">
+        <img class="image-support" src="./assets/img-support.png" alt="img-support-header">
+        <p class="legends-support">Precisa de ajuda para comprar?</p>
+    </div>
+        <div class="especialista-sup" >
+            <a href="#" class="especialista-support">Fale com um especialista</a>
+        </div>
     </div>
 
 </body>
