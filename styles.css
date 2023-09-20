@@ -439,10 +439,10 @@ section {
         width: 100%;
         height: 90%;
         position: absolute;
-        top: 1650px;
+        top: 1695px;
         left: 0;
         z-index: -1;
-        clip-path: circle(532px at right 1023px);
+        clip-path: circle(538px at right 1023px);
     }
     
     .image-iphone {
