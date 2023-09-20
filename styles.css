@@ -373,7 +373,7 @@ section {
 
     .box-header {
         display: block;
-        margin: 170vh auto 15px 70px;
+        margin: 185vh auto 15px 70px;
         align-items: center;
     }
 
@@ -391,7 +391,7 @@ section {
 
     section {
         display: block;
-        margin-top: 420%;
+        margin-top: 430%;
     }
 
     .title-second {
@@ -439,10 +439,10 @@ section {
         width: 100%;
         height: 90%;
         position: absolute;
-        top: 1635px;
+        top: 1650px;
         left: 0;
         z-index: -1;
-        clip-path: circle(477px at right 1040px);
+        clip-path: circle(532px at right 1023px);
     }
     
     .image-iphone {
