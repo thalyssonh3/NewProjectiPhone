@@ -195,12 +195,6 @@ header {
     text-decoration: underline;
 }
 
-.especialista-sup {
-    margin-left: 92px;
-    margin-bottom: 10px;
-}
-
-
 .legends-mac:hover {
     text-decoration: underline;
 }
@@ -347,7 +341,7 @@ section {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
 
     
     .apple-grey-header {
@@ -368,34 +362,38 @@ section {
     }
 
     .icon-apple-header {
-        display: flex;
+        display: block;
+        margin: 0 0px 0 35vw;
     }
 
     .box-header {
         display: block;
-        margin: 185vh auto 15px 70px;
+        margin: 150vh auto 15px auto;
         align-items: center;
     }
 
     .images-header {
         position: relative;
-        margin-top: 20px;
-        width: 180px;
+        border-bottom: 1px solid #c1c1c1;
+        padding-bottom: 15px;
+        margin-top: 25px;
+        width: 210px;
         cursor: pointer;
         margin-left: 35px;
     }
 
     .title-iphone {
-        margin-left: 22vw;
+        margin-left: 35vw;
+        font-size: 28px;
     }
 
     section {
         display: block;
-        margin-top: 430%;
+        margin-top: 1670px;
     }
 
     .title-second {
-        font-size: 35px;
+        font-size: 37px;
         margin-top: 23px;
         margin-bottom: 20px;
         text-align: center;
@@ -403,55 +401,81 @@ section {
 
     .legends-responsive {
         border-right: none;
-        border-bottom: 1px solid #c1c1c1;
-        padding: 10px 0 10px 40px;
-        font-size: 15px;
+        padding: 2px 0 10px 45px;
+        font-size: 20px;
         font-weight: 400;
         color: #0a0a0a;
         cursor: pointer;
     }
 
     .text-principal {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .value {
-        font-size: 16px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 33px;
     }
 
     .button-buy {
-        font-size: 20px;
+        font-size: 26px;
         display: block;
         margin: 0 auto;
     }
 
     .color-paragraph-buttons {
-        margin-top: 40px;
-        font-size: 20px;
-        text-align: center;
+        margin-top: 92px;
+        font-size: 25px;
+        margin-left: 87px;
     }
 
     .all-colors {
         margin-left: 5px;
+        width: 48px;
+        height: 50px;
     }
 
     .circle-right {
         width: 100%;
-        height: 90%;
+        height: 100%;
         position: absolute;
-        top: 1732px;
+        top: 1788px;
         left: 0;
         z-index: -1;
-        clip-path: circle(550px at right 1023px);
+        clip-path: circle(377px at right 1089px);
     }
     
     .image-iphone {
-        width: 250px;
-        margin-left: 38px;
+        width: 312px;
+        margin-left: 380px;
         padding-bottom: 12px;
         z-index: 1;
     }
+
+    .div-support {
+        display: inline-block;
+        margin-left: -47px;
+
+    }
+
+    .image-div-atendente {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .image-support {
+        margin-right: 20px;
+    }
+
+    .legends-support {
+        font-size: 18px;
+    }
     
+
+    .especialista-support {
+        font-size: 20px;
+    }
 
 
 
